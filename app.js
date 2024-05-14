@@ -9,6 +9,6 @@ app.use(express.json())
 app.use(logger('dev'));
 app.use(cors());
 
-app.use('/weather/', weatherRouter)
+app.use('/weather', weatherRouter)
 
 module.exports = app
